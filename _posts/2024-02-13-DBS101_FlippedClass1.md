@@ -17,7 +17,7 @@ In a database, people do different things with the informations every day. Some 
 
 1. Database Adminstrator:
     
-   The Database Adminstrator is a person/group who frames the schema and also controls the 3 level of database namely conceptual, logical and physical levels. DBA also uses the database to find the information they require and plan the goal of database. 
+   The Database Adminstrator is like a person/group who frames the schema and also controls the 3 level of database namely conceptual, logical and physical levels. DBA also uses the database to find the information they require and plan the goal of database. 
 
    They are also known as "high level management" because to meet the future needs, they are ready future scope and provide solutions for the end users.
 
@@ -65,4 +65,21 @@ In a database, people do different things with the informations every day. Some 
 
 # Database Administrators
    
-The Database adminstrator is like the caretaker or manager 
+  The Database adminstrator is like the caretaker or manager who is in charge of creating and maintaining a secure database at all timees.
+
+Some of the roles and responsibilities of the Database Adminstrators:
+
+ They make the relationship between the database vendors and the service provider in terms of collaboration, problem solving and getting updated.
+
+ The DBA msake sure that the database is secure at all time by doing regular checkups, so that they funtions well in a proper condition.
+
+ DBA also acts like a law body in the government system. They maintain and implement the policies that need to be implemented at all times by maintaining it.
+
+ They also dig out the problems and the database issues that needs to be solved and aslo they maintains the data flow in the database.
+ 
+
+
+
+
+
+ 
