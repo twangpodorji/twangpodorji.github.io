@@ -43,7 +43,7 @@ An example of Pivoting<br>
 #### Before pivoting:<br>
 Example 1: Pivoting on Names and score and ID.
 ![alt text](../before_pivoting.png)
-Example 2: Pivoting on ID, Product, quantity and total_sales 
+Example 2: Pivoting on ID, Product, quantity and total_sales.
 ![alt text](../ex1.png)
 
 #### Outcome after pivoting:<br>
@@ -63,6 +63,8 @@ Cube is similar to Rollup but it generates all possible combinations of subtotal
 An example of Cube:
 
 ![alt text](../cube.png)
+
+
 
 
 
