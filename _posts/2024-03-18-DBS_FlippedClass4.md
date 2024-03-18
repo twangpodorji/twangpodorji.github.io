@@ -40,7 +40,7 @@ An example of Windowing:
 ## Pivoting.
 Pivoting is like turning rows into columns to make the data easier to read or analyze. It's like taking a list of items and organizing them into categories, where each category becomes a column, and the items are listed under the correct category.
 An example of Pivoting<br>
-#### Before pivoting:<br>
+#### Before pivoting:
 Example 1: Pivoting on Names and score and ID.
 ![alt text](../before_pivoting.png)
 Example 2: Pivoting on ID, Product, quantity and total_sales.
