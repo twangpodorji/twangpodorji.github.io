@@ -14,6 +14,7 @@ The RANK() function helps you do this. It assigns a rank to each item in the lis
 An example of an rank is given below:
 
 ![alt text](../Rank.png)
+
 So we can clearly see that rank keeps the gap between any two items if there is any same value. for that matter the rank directly jumps from 3 to 5.
 
 ### 2.Dense_rank 
@@ -42,15 +43,21 @@ Pivoting is like turning rows into columns to make the data easier to read or an
 An example of Pivoting<br>
 #### Before pivoting:
 Example 1: Pivoting on Names and score and ID.
+
 ![alt text](../before_pivoting.png)
+
 Example 2: Pivoting on ID, Product, quantity and total_sales.
 ![alt text](../ex1.png)
 
 #### Outcome after pivoting:<br>
 Example 1.
+
 ![alt text](../after_pivoting.png)
+
 Example 2.
+
 ![alt text](../ex2.png)
+
 ## Rollup and Cube. 
 ### 1.Rollup.
 Rollup is like creating a summary table that shows subtotals and a grand total for different levels of data.<br>
