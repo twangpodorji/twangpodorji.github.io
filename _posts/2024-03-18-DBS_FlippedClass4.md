@@ -4,7 +4,9 @@ categories: [DBS101, Flipped_Class4]
 tags: [DBS101]
 ---
 
+
 # Agregation functions.
+![alt text](../learning_outcome.png)
 
 ## RANK
 To understand RANKS, Imagine that you have a list of items, and you want to rank them based on some criteria, like size or shape or any other features:
