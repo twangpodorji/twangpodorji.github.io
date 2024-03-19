@@ -21,7 +21,7 @@ An example of an rank is given below:
 
 So we can clearly see that rank keeps the gap between any two items if there is any same value. for that matter the rank directly jumps from 3 to 5.
 
-### 2.Dense_rank 
+### 2.Dense_rank
 DENSE_RANK() is almost same like the RANK() but  DENSE_Rank() doesn't skip any rank numbers. If two items are tied for first, the next item still gets a rank of 2 not 3 which mean it does not skip any rank numbers when two items are tied for the first place. If two items are tied for the first rank, the next item still gets a rank of 2, not 3. This behavior ensures that there are no gaps in the ranking sequence, even when there are ties.<br>
 An example of an dense_rank is given below:
 
@@ -42,7 +42,7 @@ An example of Windowing:
 
 ![alt text](<../images fc4/windowing.png>)
 
-## Pivoting.
+## Pivoting
 Pivoting is like turning rows into columns to make the data easier to read or analyze. It's like taking a list of items and organizing them into categories, where each category becomes a column, and the items are listed under the correct category.<br>
 An example of Pivoting, before and after pivoting.<br>
 #### Before pivoting:
@@ -65,19 +65,19 @@ Example 2.
 
 After pivoting all rows has been changed to column.
 ## Rollup and Cube. 
-### 1.Rollup.
+### 1.Rollup
 Rollup is like creating a summary table that shows subtotals and a grand total for different levels of data.<br>
 An example of Roll up:
 
 ![alt text](<../images fc4/rollup.png>)
 
-### 2.Cube.
+### 2.Cube
 Cube is similar to Rollup but it generates all possible combinations of subtotals and grand totals for the specified columns.<br>
 An example of Cube:
 
 ![alt text](<../images fc4/cube.png>)
 
-## Summary.
+## Summary
 In the nut shell, the aggregation function is a composition of RANK(), DENSE_RANK(),PIVOTEING() and WINDOWING(),  In which ranks arranges the any items in columns according to their rank but it keep gaps between the ranks of the items if there is tie of two items. The DENSE_RANK is similar to RANK but it does not keep gaps between the tie items and PIVOTING turns the rows into columns whereas windowing functions helps in comparing the rows in the relation without losing any informations.
 
 
