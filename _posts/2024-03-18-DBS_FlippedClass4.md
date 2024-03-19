@@ -6,7 +6,7 @@ tags: [DBS101]
 
 
 # Aggregation functions.
-Greetings everyone! Today I will share what I have absorbed during my journey towards the types of Aggregation Functions. so let's get started 👍..
+Greetings everyone! Today I will share what I have absorbed during my journey towards the types of Aggregation Functions. so let's get started 👍...
 
 ![alt text](<../images fc4/learning_outcome.png>)
 
