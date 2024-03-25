@@ -119,22 +119,4 @@ In the given table above, the (EmployeeID, ProjectID) is the composite primary k
 
 ![alt text](<../image FC5/4NF_ex3.png>)
 
-### 6. Fifth Normal Form (5NF)
-
-Fifth Normal Form addresses cases where there are overlapping composite keys and dependencies. A table is in 5NF if it is in 4NF and there are no join dependencies.
-
-**Lets understand join dependences**.<br>
-A join dependency exists when a non-trivial functional dependency between two or more sets of attributes is based on a common attribute. In other words, 5NF ensures that there are no overlapping candidate keys that are used in join dependencies.
-
-Lets look at some examples:
-
-![alt text](<../image FC5/5NF_ex1.png>)
-
-Out here, both (StudentID, CourseID) and (CourseID, Instructor) are candidate keys. To normalize into 5NF, we would split this into two tables:
-
-![alt text](<../image FC5/5NF_ex2.png>)
-
-![alt text](<../image FC5/5NF_ex3.png>)
-
-In this way, 5NF ensures that there are no overlapping keys, and the dependencies between attributes are well-defined.
 
