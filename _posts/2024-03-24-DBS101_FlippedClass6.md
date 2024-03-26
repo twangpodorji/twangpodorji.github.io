@@ -59,7 +59,7 @@ An example for the graph databse is given below:
 A vector database is a specialized database designed to store, manage, and query high-dimensional vector data, which is crucial for AI and machine learning applications. It enables efficient storage and retrieval of vector embeddings, allowing for similarity and semantic searches, making it ideal for applications like recommendation engines and image recognition.
 
 
-![alt text](<../image for FC6/vector image.png>)
+![alt text](<../image for FC6/vector image copy.png>)
 
 ### Time-series Databases(TSDB)
 
