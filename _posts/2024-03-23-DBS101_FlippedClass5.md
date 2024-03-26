@@ -16,7 +16,6 @@ Greetings to you all! Today, I am here to share some of my learning journey towa
 This is achieved by applying a set of rules known as normal forms as shown below:
 
 ![alt text](<../image FC5/Types of normal forms .png>)
-
 ### 1.First Normal Form (1NF)
 1NF Ensures that each column in a table contains atomic (indivisible) values, and there are no repeating groups.
 
@@ -91,16 +90,16 @@ II. **Non-trivial Functional Dependency:** A functional dependency X→Y is non-
 
 Lets consider a table of Students_Courses that is given below:
 
-![alt text](<../image FC5/BCNF_ex1.png>)
+![alt text](<../image FC5/BCNF_ex1 11.04.10 PM.png>)
 
 The table is not in BCNF because the dependency CourseID → Instructor doesn't meet the BCNF criteria, even though both (StudentID, CourseID) and (CourseID, Instructor) are candidate keys.
 
 Now to normalize into BCNF, you would split the table into
 two, we get:
 
-![alt text](<../image FC5/BCNF_ex2.png>)
+![alt text](<../image FC5/BCNF_ex2 11.04.10 PM.png>)
 
-![alt text](<../image FC5/BCNF_ex3.png>)
+![alt text](<../image FC5/BCNF_ex3 11.04.10 PM.png>)
 
 Now, each table satisfies BCNF, and the functional dependencies hold for each. BCNF eliminates certain types of redundancy and ensures that the table structure is free from certain types of update anomalies.
 
