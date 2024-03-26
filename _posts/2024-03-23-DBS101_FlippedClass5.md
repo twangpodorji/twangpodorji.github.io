@@ -16,7 +16,7 @@ Greetings to you all! Today, I am here to share some of my learning journey towa
 This is achieved by applying a set of rules known as normal forms as shown below:
 
 ![alt text](<../image FC5/Types of normal forms .png>)
-### 1.First Normal Form (1NF)
+### 1.First Normal Form (1NF).
 1NF Ensures that each column in a table contains atomic (indivisible) values, and there are no repeating groups.
 
 Example: If a table has a column that contains multiple values separated by commas, it is not in 1NF.
@@ -36,7 +36,7 @@ In this example, the Courses column violates the atomic values rule because it c
 
 Now, each cell contains an atomic value, and there are no repeating groups. So the table is in 1NF.
 
-### 2.Second Normal Form (2NF)
+### 2.Second Normal Form (2NF).
 
 2NF is builded on 1NF and ensures that there are no partial dependencies of a composite primary key on non-prime attributes.
 
@@ -58,7 +58,7 @@ In this example, (StudentID, CourseID) is the composite primary key. However, th
 
 Now, each table is in 1NF, and the partial dependency has been eliminated. The Instructor information is associated with the CourseID in a separate table, avoiding redundancy and making to 2NF.
 
-### 3.Third Normal Form (3NF)
+### 3.Third Normal Form (3NF).
 3NF is builds on 2NF and eliminates transitive dependencies, ensuring that non-primary attributes are not dependent on other non-prime attributes. It removes indirect relationships between non-key columns.
 
 To achieve 3NF, a table must meet the following criteria like follows:
@@ -81,7 +81,7 @@ In this example, (StudentID, CourseID) is the composite primary key. However, th
 
 Now, each table is in 3NF, and the transitive dependencies have been eliminated. The Instructor information is associated with the CourseID in one table, and the Department information is associated with the Instructor in another table.
 
-### 4.Boyce-Codd Normal Form (BCNF)
+### 4.Boyce-Codd Normal Form (BCNF).
 Boyce-Codd Normal Form (BCNF) is a higher level of normalization that addresses certain types of anomalies related to functional dependencies. A table is in BCNF if, for every non-trivial functional dependency X → Y, X is a superkey. In simpler terms, BCNF ensures that there are no non-trivial functional dependencies where the determinant (X) is not a superkey.
 
 I. **Superkey:** A superkey is a set of one or more attributes that can uniquely identify a row in a table, even if it includes more attributes than needed.
@@ -104,7 +104,7 @@ two, we get:
 Now, each table satisfies BCNF, and the functional dependencies hold for each. BCNF eliminates certain types of redundancy and ensures that the table structure is free from certain types of update anomalies.
 
 
-### 5. Fourth Normal Form (4NF)
+### 5. Fourth Normal Form (4NF).
 
 A table is in Fourth Normal Form (4NF) if it meets the requirements of Third Normal Form (3NF) and does not have any non-trivial multivalued dependencies. A non-trivial multivalued dependency occurs when a non-prime attribute depends on a set of other non-prime attributes, but not on any individual attribute within that set.
 
