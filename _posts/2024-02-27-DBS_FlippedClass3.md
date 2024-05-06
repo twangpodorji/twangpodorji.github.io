@@ -40,5 +40,5 @@ Example ; In SQL null values can be like the empty table that doesn't have any i
 # Why do we use null value in SQL?
 For the values that are given but it's unknown.
 Values that are not arranged in their respective columns.
-Values that are not in range.
+Values that are not in range. 
 

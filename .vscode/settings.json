@@ -1,0 +1,7 @@
+{
+     "editor.defaultFormatter": null,
+     "github.copilot.chat.scopeSelection": true,
+     "github.copilot.enable": {
+          "markdown": "false"
+     }
+}
