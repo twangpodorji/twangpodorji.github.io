@@ -13,6 +13,7 @@ Materialized Views and how they contribute towards the performance of the databa
 
 Query optimization is a crucial process in database management that aims to improve the performance of queries by selecting the most efficient execution plan. By analyzing the query structure, data distribution, and available indexes, the query optimizer generates an optimal plan to retrieve, filter, and join data from the database tables. Advanced query optimization techniques leverage statistics, cost models, and heuristics to estimate the query execution time and select the best plan based on performance metrics like response time, resource consumption, and throughput.
 
+
 **Two main objectives of Query Optimization are:**
 
 - Determine the optimal plan to access the database.
