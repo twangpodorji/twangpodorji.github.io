@@ -45,6 +45,7 @@ In-memory storage is a storage method where data is stored in the main memory (R
 Bitmap indexing is a data indexing technique used in database management systems (DBMS) to enhance the performance of read-only queries involving large datasets. It involves creating a bitmap index, a data structure that represents the presence or absence of data values in a table or column. Each distinct value in a column is assigned a bit vector (bitmap) that indicates the presence or absence of that value in each row of the table. This technique is particularly effective for columns with low cardinality, meaning they have a modest number of distinct values, either absolutely or relative to the number of records that contain the data.
 
 ![alt text](../images_FC9/image_fc9_1.png)
+
 **Table Partitioning**
 
 Table partitioning is a database design technique that divides large database tables into smaller, more manageable parts called partitions. Each partition contains a subset of the table's data and can be stored and managed independently. Table partitioning improves query performance, data management, and availability by distributing data across multiple storage devices, optimizing data access, and enabling parallel processing. Common partitioning strategies include range partitioning, list partitioning, hash partitioning, and composite partitioning, each suited for different data distribution patterns and access patterns.
