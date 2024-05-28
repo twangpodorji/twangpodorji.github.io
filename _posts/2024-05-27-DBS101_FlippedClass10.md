@@ -173,7 +173,7 @@ In the Flipped Class session, we dived into transactions and their ACID properti
 
      ![alt text](../image_FC10/img10_fc10.png)
 
-     ## Summary
+## Summary
 
-     In conclusion, the Flipped Class activities provided a hands-on experience with transactions and their ACID properties in a database management system. By performing tasks like balance transfers, updating account balances, inserting data, and handling transaction errors, we gained practical insights into transaction management and the importance of maintaining data integrity and consistency. Understanding how transactions work, their atomicity, consistency, isolation, durability, and serializability is essential for designing reliable and efficient database systems that can handle concurrent transactions and ensure data integrity. I hope this session has enhanced your understanding of transactions in DBMS and their role in database management. Thank you for your participation! 
+In conclusion, the Flipped Class activities provided a hands-on experience with transactions and their ACID properties in a database management system. By performing tasks like balance transfers, updating account balances, inserting data, and handling transaction errors, we gained practical insights into transaction management and the importance of maintaining data integrity and consistency. Understanding how transactions work, their atomicity, consistency, isolation, durability, and serializability is essential for designing reliable and efficient database systems that can handle concurrent transactions and ensure data integrity. I hope this session has enhanced your understanding of transactions in DBMS and their role in database management. Thank you for your participation! 
 
