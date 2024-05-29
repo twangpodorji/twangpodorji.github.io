@@ -57,7 +57,7 @@ There are two main types of locks that can be used in two-phase locking:
 
 Illustration of Two-Phase Locking (2PL)
 
-![alt text](../images_fc11/image1_fc11.jpg)
+![alt text](../images_fc11/image3_fc11.jpg)
 
 Let’s see a transaction implementing 2-PL.
 
