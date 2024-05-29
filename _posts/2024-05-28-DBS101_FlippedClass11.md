@@ -5,7 +5,9 @@ tags: [DBS101]
 --- 
 
 ## Concurrency Control
+
 ![alt text](../images_fc11/image2_fc11.jpg)
+
 Greetings to you all! In this flipped class, we will be discussing about Concurrency Control.
 
 ### What is Concurrency Control?
@@ -154,7 +156,7 @@ Locks and latches are mechanisms used to manage simultaneous transactions in a d
 | Two main types: shared locks and exclusive locks | Two main types: shared latches and exclusive latches |
 | Used to manage simultaneous transactions in a database | Used to manage system resources in a database |
 
-### Conclusion.
+### Conclusion
 
 In this flipped class, we discussed about Concurrency Control. We learned about the importance of concurrency control, the types of concurrency control methods, and the advantages and disadvantages of each method. We also discussed about locks and latches, and the difference between locks and latches. I hope you found this flipped class informative and helpful.
 
